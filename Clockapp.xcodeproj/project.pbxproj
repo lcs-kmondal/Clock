@@ -13,6 +13,7 @@
 		9A58CCBB2F4E3096008B37B3 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A58CCBA2F4E3096008B37B3 /* WorldClockView.swift */; };
 		9A58CCBD2F4E30B4008B37B3 /* AlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A58CCBC2F4E30B4008B37B3 /* AlarmsView.swift */; };
 		9A58CCBF2F4E30C1008B37B3 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A58CCBE2F4E30C1008B37B3 /* StopwatchView.swift */; };
+		ABBF035E2F4F454F00E64DA5 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBF035D2F4F454F00E64DA5 /* WorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9A58CCBA2F4E3096008B37B3 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
 		9A58CCBC2F4E30B4008B37B3 /* AlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsView.swift; sourceTree = "<group>"; };
 		9A58CCBE2F4E30C1008B37B3 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+		ABBF035D2F4F454F00E64DA5 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				9A58CCB32F4E2EFA008B37B3 /* LandingView.swift */,
 				9A58CCBA2F4E3096008B37B3 /* WorldClockView.swift */,
+				ABBF035D2F4F454F00E64DA5 /* WorldView.swift */,
 				9A58CCBC2F4E30B4008B37B3 /* AlarmsView.swift */,
 				9A58CCBE2F4E30C1008B37B3 /* StopwatchView.swift */,
 			);
@@ -150,6 +153,7 @@
 				9A58CCBD2F4E30B4008B37B3 /* AlarmsView.swift in Sources */,
 				9A58CCBF2F4E30C1008B37B3 /* StopwatchView.swift in Sources */,
 				9A58CCB72F4E2EFA008B37B3 /* LandingView.swift in Sources */,
+				ABBF035E2F4F454F00E64DA5 /* WorldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

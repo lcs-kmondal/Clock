@@ -15,53 +15,23 @@ struct WorldClockView: View {
                 
                 
                     VStack{
-                        HStack{
-                            Spacer().frame(width:3)
-                            VStack(alignment:.leading){
-                                Text("Today, +0HRS")
-                                Text("Ottawa")
-                                    .font(.system(size: 36))
-                            }
-                            Spacer()
-                            Text("6:35AM")
-                                .font(.system(size: 50))
-                        }
+                        
+                        WorldView(timezoneOffset: "+0HRS", city: "Ottawa", time: "6:35", amOrPm: "AM")
                         Spacer().frame(height:5)
-                        HStack{
-                            Spacer().frame(width:3)
-                            VStack(alignment:.leading){
-                                Text("Today, -3HRS")
-                                Text("Vancouver")
-                                    .font(.system(size: 36))
-                            }
-                            Spacer()
-                            Text("3:35AM")
-                                .font(.system(size: 50))
-                        }
+                        
+                        WorldView(timezoneOffset: "-3HRS", city: "Vancouver", time: "3:35", amOrPm: "AM")
                         Spacer().frame(height:5)
-                        HStack{
-                            Spacer().frame(width:3)
-                            VStack(alignment:.leading){
-                                Text("Today, +6HRS")
-                                Text("Hamburg")
-                                    .font(.system(size: 36))
-                            }
-                            Spacer()
-                            Text("12:35AM")
-                                .font(.system(size: 50))
-                        }
+                        
+                        WorldView(timezoneOffset: "+6HRS", city: "Hamburg", time: "12:35", amOrPm: "PM")
                         Spacer().frame(height:5)
-                        HStack{
-                            Spacer().frame(width:3)
-                            VStack(alignment:.leading){
-                                Text("Today, +16HRS")
-                                Text("Sydney")
-                                    .font(.system(size: 36))
-                            }
-                            Spacer()
-                            Text("10:35AM")
-                                .font(.system(size: 50))
-                        }
+                        
+                        WorldView(timezoneOffset: "+16HRS", city: "Sydney", time: "10:35", amOrPm: "PM")
+                        Spacer().frame(height:5)
+                        
+                        WorldView(timezoneOffset: "+9HRS", city: "Dubai", time: "3:35", amOrPm: "PM")
+                        Spacer().frame(height:5)
+                        
+                        
                     }
                 
             }
@@ -92,23 +62,4 @@ struct WorldClockView: View {
     LandingView()
 }
 
-struct ExtractedView: View {
-    var body: some View {
-        HStack{
-            //left side
-            VStack {
-                Text("today, +0HRS")
-                Text("Ottawa")
-                    .font(.system(.largeTitle, design: .default, weight: . thin))
-            }
-            
-            Spacer()
-            
-            Text("6:35")
-                .font(.system(size:64.0, weight:.thin, design:.default))
-            Text("AM")
-                .font(.system(.largeTitle, design:.default, weight:.thin))
-        }
-        
-    }
-}
+
